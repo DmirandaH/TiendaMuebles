@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+  body {
+    background-color: rgb(83, 98, 148);
+
+  }
+
+  .titulo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+
+  }
+
+  .titulo span {
+    color: rgb(2, 39, 27);
+  }
+
+  .nav-principal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: rgb(18, 141, 141);
+    
+    
+  }
+
+  .nav-principal a {
+    color: rgb(253, 247, 247);
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+  }
+
+  .img {
+    padding: 10px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+   
+  }

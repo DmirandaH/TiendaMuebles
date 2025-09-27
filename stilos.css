@@ -45,3 +45,12 @@ html {
     gap: 0.5rem;
    
   }
+
+
+  .hero {
+    background-image: url(/ecommerce/img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+}
